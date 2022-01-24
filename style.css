@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-image:url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    background-position:center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    padding-top: 90px;
+    margin-left: 130px;
+    text-align:left;
+    font-size: 45px;
+}
+
+.assurance {
+    text-align:left;
+    padding-top: 18px;
+    margin-left: 130px;
+    text-justify: auto;
+}
+
+p {
+    color: hsl(303, 10%, 53%);
+}
+
+.box {
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    width: 350px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 7px;
+    margin-left: 620px;
+    margin-top: -210px;
+
+}
+
+.container {
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    width: 350px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 7px;
+    margin-left: 670px;
+    margin-top: 15px;
+}
+
+.boxed {
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    width: 350px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 7px;
+    margin-left: 729px;
+    margin-top: 15px;
+}
+
+.icon {
+    justify-content:space-between;
+    margin-top: 10px;
+    display:inline-block ;
+    *display: inline;
+    padding-left: 10px;
+}
+
+h2 {
+    color: hsl(300, 43%, 22%);
+    font-size:15px ;
+    padding: 10px;
+}
+
+.testimonial-grid {
+    display: grid;
+    margin: 100px;
+    padding: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 108px;
+}
+
+
+.flex img {
+    border-radius: 50%;
+    max-width: 33px;
+    padding: 24px;
+    
+}
+
+.testimonial-C {
+    width: 300px;
+    height: 180px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+
+}
+
+.introduction {
+    display: grid;
+    margin-top: -60px;
+}
+
+h3 {
+    margin-left: 80px;
+    margin-top:px;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+.status {
+    margin-left: 80px;
+    white-space: nowrap;
+    margin-top: px;
+    font-size: 14px;
+    color: hsl(333, 80%, 67%);
+    opacity: 45%;
+}
+
+.comment {
+   text-align: left;
+   margin: 10px;
+   padding: 15px;
+   Font-size: 15px;
+}
+
+.testimonial-I {
+    width: 300px;
+    height: 180px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    margin-left: -35px;
+    margin-top: 13px;
+}
+
+.testimonial-A {
+    width: 300px;
+    height: 180px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    margin-left: -70px;
+    margin-top: 29px;
+}
+
+@media (max-width: 500px) {
+
+    h1 {
+        display: flex;
+        flex-direction: column;
+        color: hsl(300, 43%, 22%);
+        padding-top: 90px;
+        text-align:justify;
+        font-size: 45px;
+    }
+    .testimonial-grid {
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .assurance {
+        display: flex;
+        flex-direction: column;
+        text-align:left;
+        padding-top: 18px;
+        margin-left: 130px;
+        text-justify: auto;
+    }
+
+    .box {
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 7px;
+        margin-left: 10px;
+        margin-top: 40px;
+        width: 290px;
+        height: 57px;
+    }
+    
+    .container {
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 7px;
+        margin-left: 10px;
+        margin-top: 44px;
+        width: 290px;
+        height: 57px;
+    }
+    
+    .boxed {
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 7px;
+        margin-left: 10px;
+        margin-top: 48px;
+        width: 290px;
+        height: 57px;
+    }
+    
+    
+
+    .ratings {
+        margin-left: 130px;
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: repeat(3, 1fr);
+        
+
+    }
+
+    .rated {
+        display: flex;
+        white-space: nowrap;
+        margin-top: auto;
+        text-align: center;
+        margin-left: -90px;
+
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        display:inline-block ;
+        *display: inline;
+        margin-right: 0px;  
+    }
+}
