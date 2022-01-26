@@ -158,6 +158,7 @@ h3 {
 
     h1 {
         width: 80%;
+        text-align: center;
     }
 
     .testimonial-grid {
@@ -202,7 +203,7 @@ h3 {
 
     .ratings {
         align-items: left;
-        margin-left: 60px;
+        margin-left: 75px;
         display: flex;
         flex-direction: column;
         grid-template-rows: repeat(3, 1fr);
