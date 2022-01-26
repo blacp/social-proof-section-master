@@ -163,16 +163,12 @@ h3 {
     .testimonial-grid {
         display: flex;
         flex-direction: column;
-        grid-template-rows: repeat(3, 1fr);
+        align-items: center;
+        margin-left: 190px;
     }
 
     .assurance {
-        display: flex;
-        flex-direction: column;
-        text-align:left;
-        padding-top: 18px;
-        margin-left: 130px;
-        text-justify: auto;
+        width: 85%;
     }
 
     .box {
@@ -205,12 +201,11 @@ h3 {
     
 
     .ratings {
-        margin-left: 130px;
+        align-items: left;
+        margin-left: 60px;
         display: flex;
         flex-direction: column;
         grid-template-rows: repeat(3, 1fr);
-        
-
     }
 
     .rated {
@@ -227,7 +222,22 @@ h3 {
         flex-direction: row;
         margin-top: 10px;
         display:inline-block ;
-        *display: inline;
-        margin-right: 0px;  
+        *display: inline; 
     }
+    
+    .main-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+          "first-area second-area"
+          "third-area third-area";
+      }
+
+      .testimonial-I {
+          margin-left: 7px;
+      }
+
+      .testimonial-A {
+        margin-left: 7px;
+      }
 }
